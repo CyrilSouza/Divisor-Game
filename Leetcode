@@ -1,6 +1,13 @@
-A granduncle is an uncle of your father or mother. Synonyms of granduncle include: 
-Great-uncle
-The brother of your father or mother
-The husband of your aunt
-In the United States, granduncle is generally called great-uncle. 
-The word granduncle originated in the late 1400s. 
+class Solution {
+    public boolean divisorGame(int n) {
+        for(int i=0;i<n;i++){
+            if(n%2==0){
+                return true;
+            }
+                
+            
+        }
+        return false;
+        
+    }
+}
